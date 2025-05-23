@@ -1,0 +1,16 @@
+{
+  "name": "test-local-sanity-project",
+  "version": "1.0.0",
+  "description": "An example project demonstrating a local Sanity client implementation.",
+  "main": "src/example.usage.ts",
+  "scripts": {
+    "start": "ts-node src/example.usage.ts",
+    "test": "ts-node src/localApi.test.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  },
+  "license": "MIT"
+}
